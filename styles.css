@@ -1,0 +1,132 @@
+html,body {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  box-sizing:border-box;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-top: 0;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+div.menuRibbon {
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: #FFF;
+  position: sticky;
+  -webkit-box-shadow:0px 3px 3px #808080;
+ -moz-box-shadow:0px 3px 3px #808080;
+ box-shadow:0px 3px 3px ##808080;
+}
+div.content {
+  text-align: center;
+  vertical-align: middle;
+  overflow: scroll;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+img.banner {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+div.left {
+  float: left;
+  width: 50vw;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+}
+div.right {
+  float: right;
+  width: 50vw;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+}
+h1 {
+  font-size: 30px;
+  color: #000;
+  display: inline-block;
+  padding-left: 20px;
+}
+h2 {
+  padding: 10px;
+  font-size: 25px;
+  color: #000;
+}
+p {
+  padding: 10px;
+  font-size: 15px;
+  color: #000;
+}
+p.postTitle {
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  color: #FFF;
+  z-index: 1;
+  text-align: center;
+}
+svg {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+svg.closeButton {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+div.navDrawer{
+  bottom: 0;
+  top: 0;
+  left: 0;
+  box-sizing:border-box;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  display: none;
+  margin: 0;
+  overflow: hidden;
+  margin-top: 0;
+  background-color: #000;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+div.navLinks {
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+a.navLink {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  color: #FFF;
+  transition-duration: 0.6s;
+}
+a.navLink:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #FFF;
+  color: #000;
+}
