@@ -3,13 +3,47 @@
  {% include head.html %}
  <body>
   {% include nav.html %}
-  {% include h1.html %}
+  {% include menu.html %}
   {% for post in site.posts %}
-  {% assign value = {{ forloop.index }} | modulo:2 %}
+  {% assign value=forloop.index | modulo:2 %}
   {% if value == 0 %}
-   {% include blackPreview.html banner=post.banner title=post.title description=post.title url=post.url  %}
+
+  <div class="contentPreviewLeft">
+   <div class="contentBannerContainerLeft">
+     {% if bannerURLIsAbsolute %}
+     <img class="contentBanner" src="{{ post.banner }}"/>
+     {% else %}
+     <img class="contentBanner" src="{{ post.banner | prepend: site.baseurl }}"/>
+     {% endif %}
+   </div>
+   <div class="contentPreviewDataContainerRight">
+    <h2 class="contentTitleBlack">{{ post.title }}</h2>
+    <p class="contentDescriptionBlack">
+     {{ post.description }}
+    </p>
+    <a class="contentLinkBlack" href="{{ url | prepend: site.baseurl }}">{{ site.viewText }}</a>
+   </div>
+  </div>
+
    {% else %}
-    {% include whitePreview.html banner=post.banner title=post.title description=post.title url=post.url  %}
+
+   <div class="contentPreviewRight">
+    <div class="contentBannerContainerRight">
+     {% if bannerURLIsAbsolute %}
+     <img class="contentBanner" src="{{ post.banner }}"/>
+     {% else %}
+     <img class="contentBanner" src="{{ post.banner | prepend: site.baseurl }}"/>
+     {% endif %}
+    </div>
+    <div class="contentPreviewDataContainerLeft">
+     <h2 class="contentTitleWhite">{{ post.title }}</h2>
+     <p class="contentDescriptionWhite">
+      {{ post.description }}
+     </p>
+     <a class="contentLinkWhite" href="{{ post.url | prepend: site.baseurl }}">{{ site.viewText }}</a>
+    </div>
+   </div>
+
    {% endif %}
    {% endfor %}
   {% include javascript.html %}
