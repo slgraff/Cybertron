@@ -26,7 +26,7 @@ A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/cyb
 
 ## Features :test_tube:
 
-- Clean, moder design for mobile and desktop devices.
+- Clean, modern design for mobile and desktop devices.
 - Smooth transitions.
 - SEO
 - Monetization for everyone.
