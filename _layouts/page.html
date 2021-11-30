@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include nav.html %}
+ <body>
+  {% include nav.html %}
+  {% include h1.html %}
+  <div class="left">
+   {% if bannerURLIsAbsolute == true %}
+    <img class="banner" src="{{ page.banner }}"/>
+   {% else %}
+    <img class="banner" src="{{ page.banner | prepend: site.baseurl }}"/>
+  </div>
+  </div class="right">
+    <div class="content">
+     {{ content }}
+   </div>
+ </div>
+ {{ include javascript.html }}
+ </body>
+</html>

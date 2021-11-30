@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+ {% include head.html %}
+ <body>
+  {% include nav.html %}
+  {% include h1.html %}
+  {% for post in site.posts %}
+  {% assign value = {{ forloop.index }} | modulo:2 %}
+  {% if value == 0 %}
+   {% include blackPreview.html banner=post.banner title=post.title description=post.title url=post.url  %}
+   {% else %}
+    {% include whitePreview.html banner=post.banner title=post.title description=post.title url=post.url  %}
+   {% endif %}
+   {% endfor %}
+  {% include javascript.html %}
+ </body>
+</html>

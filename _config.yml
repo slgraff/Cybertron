@@ -1,0 +1,28 @@
+title: "Cybertron"
+viewText: "Read Me"
+description: "Cybertron, an elegant, wide-screen Jekyll theme for freelancers, bloggers, and artists."
+iconUrlIsAbsolute: true
+57x57: "https://blckunicorn.art/assets/cybertron/apple-icon-57x57.png"
+60x60: "https://blckunicorn.art/assets/cybertron/apple-icon-60x60.png"
+72x72: "https://blckunicorn.art/assets/cybertron/apple-icon-72x72.png"
+76x76: "https://blckunicorn.art/assets/cybertron/apple-icon-76x76.png"
+114x114: "https://blckunicorn.art/assets/cybertron/apple-icon-114x114.png"
+120x120: "https://blckunicorn.art/assets/cybertron/apple-icon-120x120.png"
+144x144: "https://blckunicorn.art/assets/cybertron/apple-icon-144x144.png"
+152x152: "https://blckunicorn.art/assets/cybertron/apple-icon-152x152.png"
+180x180: "https://blckunicorn.art/assets/cybertron/apple-icon-180x180.png"
+192x192: "https://blckunicorn.art/assets/cybertron/android-icon-192x192.png"
+32x32: "https://blckunicorn.art/assets/cybertron/cybertron-32x32.png"
+96x96: "https://blckunicorn.art/assets/cybertron/cybertron-96x96.png"
+16x16: "https://blckunicorn.art/assets/cybertron/cybertron-16x16.png"
+siteManifest: "https://blckunicorn.art/assets/cybertron/manifest.json"
+144x144: "https://blckunicorn.art/assets/cybertron/ms-icon-144x144.png"
+baseurl: "/cybertron"
+url: "https://blckunicorn.art/cybertron"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - sassc

@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Page not found!"
+bannerURLIsAbsolute: true
+banner: "https://blckunicorn.art/assets/artworks/fleur.png"
+---
+
+## Error 404
+
+The page your requested, does not exist.

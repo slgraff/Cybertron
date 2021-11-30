@@ -1,0 +1,145 @@
+@media screen and (max-width: 800px){
+  html,body {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    box-sizing:border-box;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    margin-top: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+  div.navLinks {
+    padding-top: 50%;
+  }
+  div.menuRibbon {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #FFF;
+    position: sticky;
+    -webkit-box-shadow:0px 3px 3px #808080;
+   -moz-box-shadow:0px 3px 3px #808080;
+   box-shadow:0px 3px 3px ##808080;
+  }
+  div.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    text-align: left;
+  }
+  img.banner {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  div.left {
+    float: none;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    right: 0;
+    left: 0;
+  }
+  div.right {
+    float: none;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    right: 0;
+    left: 0;
+  }
+  h1 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  h2 {
+    padding: 7px;
+    font-size: 15px;
+    color: #000;
+  }
+  p {
+    padding: 7px;
+    font-size: 12px;
+  }
+  svg {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  svg.closeButton {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  a.navLink {
+    padding: 10px;
+    font-size: 15px;
+  }
+  a.navLink:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  div.contentBannerContainerLeft {
+    width: 50vw;
+  }
+  div.contentBannerContainerRight {
+    width: 50vw;
+  }
+
+  div.contentPreviewDataContainerRight{
+    width: 50vw;
+  }
+  div.contentPreviewDataContainerLeft{
+    width: 50vw;
+  }
+  h2.contentTitleBlack {
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  p.contentDescriptionBlack {
+    padding: 7px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  a.contentLinkBlack {
+    padding: 7px;
+    font-size: 12px;
+    margin-left: 18px;
+  }
+  a.contentLinkBlack:hover {
+    border: 1px solid #000;
+    padding: 9px;
+  }
+  h2.contentTitleWhite {
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  p.contentDescriptionWhite {
+    padding: 7px;
+    font-size: 12px;
+    margin-left: 7px;
+  }
+  a.contentLinkWhite {
+    padding: 7px;
+    font-size: 12px;
+    margin-left: 16px;
+  }
+  a.contentLinkWhite:hover {
+    border: 1px solid #FFF;
+    padding: 9px;
+  }
+}
