@@ -12,7 +12,7 @@
 
 ***This theme is still work in progress!***
 
-## TODO :note_pad:
+## TODO :briefcase:
 
 You can view the things that still need to be added to this theme [here](TODO.markdown).
 
