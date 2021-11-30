@@ -1,3 +1,5 @@
+@import 'variables';
+
 @media screen and (max-width: 800px){
   html,body {
     bottom: 0;
@@ -11,7 +13,7 @@
     margin: 0;
     overflow: scroll;
     margin-top: 0;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: $stdFont;
   }
   div.navLinks {
     padding-top: 50%;
@@ -23,7 +25,7 @@
     margin: 0;
     padding: 0;
     width: 100vw;
-    background-color: #FFF;
+    background-color: $mainColor;
     position: sticky;
     -webkit-box-shadow:0px 3px 3px #808080;
    -moz-box-shadow:0px 3px 3px #808080;
@@ -63,7 +65,7 @@
   h2 {
     padding: 7px;
     font-size: 15px;
-    color: #000;
+    color: $accentColor;
   }
   p {
     padding: 7px;
@@ -120,7 +122,7 @@
     margin-left: 18px;
   }
   a.contentLinkBlack:hover {
-    border: 1px solid #000;
+    border: 1px solid $accentColor;
     padding: 9px;
   }
   h2.contentTitleWhite {
@@ -139,7 +141,7 @@
     margin-left: 16px;
   }
   a.contentLinkWhite:hover {
-    border: 1px solid #FFF;
+    border: 1px solid $mainColor;
     padding: 9px;
   }
 }

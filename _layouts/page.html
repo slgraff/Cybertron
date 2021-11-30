@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
- <body>
+ {% include head.html %}
+ <body id="body">
   {% include nav.html %}
   {% include menu.html %}
   <div class="left">
-   {% if bannerURLIsAbsolute == true %}
+   {% if page.bannerURLIsAbsolute == true %}
     <img class="banner" src="{{ page.banner }}"/>
    {% else %}
     <img class="banner" src="{{ page.banner | prepend: site.baseurl }}"/>

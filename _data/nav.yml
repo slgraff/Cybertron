@@ -1,5 +1,5 @@
-- name: "Link 1"
-  url: "https://google.com"
+- name: "Home"
+  url: "/"
 - name: "Link 2"
   url: "https://google.com"
 - name: "Link 3"

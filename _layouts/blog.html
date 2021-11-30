@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  {% include head.html %}
- <body>
+ <body id="body">
   {% include nav.html %}
   {% include menu.html %}
   {% for post in site.posts %}
@@ -10,7 +10,7 @@
 
   <div class="contentPreviewLeft">
    <div class="contentBannerContainerLeft">
-     {% if bannerURLIsAbsolute %}
+     {% if post.bannerURLIsAbsolute == true %}
      <img class="contentBanner" src="{{ post.banner }}"/>
      {% else %}
      <img class="contentBanner" src="{{ post.banner | prepend: site.baseurl }}"/>
@@ -29,7 +29,7 @@
 
    <div class="contentPreviewRight">
     <div class="contentBannerContainerRight">
-     {% if bannerURLIsAbsolute %}
+     {% if post.bannerURLIsAbsolute == true %}
      <img class="contentBanner" src="{{ post.banner }}"/>
      {% else %}
      <img class="contentBanner" src="{{ post.banner | prepend: site.baseurl }}"/>

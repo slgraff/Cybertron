@@ -5,7 +5,7 @@
   </svg>
   <div class="navLinks">
     {% for item in site.data.nav %}
-    <a class="navLink" href="{{ item.url }}">{{ item.name }}</a>
+    <a class="navLink" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
     {% endfor %}
   </div>
 </div>

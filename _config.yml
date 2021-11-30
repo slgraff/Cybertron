@@ -17,6 +17,7 @@ iconUrlIsAbsolute: true
 16x16: "https://blckunicorn.art/assets/cybertron/cybertron-16x16.png"
 siteManifest: "https://blckunicorn.art/assets/cybertron/manifest.json"
 144x144: "https://blckunicorn.art/assets/cybertron/ms-icon-144x144.png"
+future: true
 baseurl: "/cybertron"
 url: "https://blckunicorn.art/cybertron"
 plugins:

@@ -1,8 +1,7 @@
 # STILL TO DO
 
+- [x] Prevent Nav scroll.
+- [x] Fix Images not loading.
 - [ ] Handle Text Overflow of content.
 - [ ] Add monetization.
-- [ ] SVG change animation.
-- [ ] Nav Drawer animation.
-- [ ] Prevent Nav scroll.
-- [ ] Fix Dev and Production configurations.
+- [x] Fix Dev and Production configurations.
