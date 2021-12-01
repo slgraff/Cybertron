@@ -5,6 +5,6 @@ bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/artworks/fleur.png"
 ---
 
-## Error 404
-
-The page your requested, does not exist.
+We are sorry to report to you that
+the page your requested, does not exist.
+Do you want to head back to [safety](/cybertron/)?

@@ -8,14 +8,6 @@
 
 ***Cybertron, an elegant, wide-screen Jekyll theme for freelancers, bloggers, and artists.*** :fire: :alien: :robot:
 
-## Status :warning:
-
-***This theme is still work in progress!***
-
-## TODO :briefcase:
-
-You can view the things that still need to be added to this theme [here](TODO.markdown).
-
 ## About :books:
 
 The other day I saw a video by an Australian web developer talking about amazing portfolio websites. Now most of these websites used some next-level technologies like *Vue.js*, *Blender* or *D3.js*. My skills might not be as good but I wanted to see if I could build something as impressive using good old-fashioned HTML, CSS, and Javascript. ***Cybertron*** is the result of that.
@@ -26,9 +18,10 @@ A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/cyb
 
 ## Features :test_tube:
 
+- Bold and assertive aesthetics.
 - Clean, modern design for mobile and desktop devices.
-- Smooth transitions.
-- SEO
+- Search Engine Optimization (SEO).
+- Google Analytics.
 - Monetization for everyone.
 
 ## Changelog :black_nib:
