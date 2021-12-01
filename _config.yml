@@ -28,3 +28,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - sassc
+  - github-pages
