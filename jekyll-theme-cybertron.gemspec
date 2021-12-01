@@ -1,3 +1,4 @@
+# Specs for a Ruby Gem.
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-cybertron"
   spec.version       = "0.1.0"
